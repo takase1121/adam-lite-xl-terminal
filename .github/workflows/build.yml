@@ -34,7 +34,7 @@ jobs:
       - name: Setup QEMU
         uses: docker/setup-qemu-action@v3
       - name: Build Linux
-        uses: lite-xl/lite-xl-build-box@v3.1.1
+        uses: lite-xl/lite-xl-build-box@v3
         with:
           platform: ${{ matrix.platform.docker }}
           run: |
